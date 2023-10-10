@@ -10,9 +10,10 @@
         //they’re accurate!
         static void Main(string[] args)
         {
-            var fahrenheit = TempConverter.CelsiusToFahrenheit(20);
-            var celcius = TempConverter.FahrenheitToCelsius(68);
-            Console.WriteLine("--------------Conversion Results---------------");
+            var fahrenheit = TempConverter.CelsiusToFahrenheit(30);
+            var celcius = TempConverter.FahrenheitToCelsius(86);
+            Console.WriteLine("Conversion between celcius and fahrenheit");
+            Console.WriteLine();    
             Console.WriteLine($"celcius: {celcius}");
             Console.WriteLine();
             Console.WriteLine($"fahrenheit: {fahrenheit}");
